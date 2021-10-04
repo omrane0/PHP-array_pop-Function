@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a=array("a"=>"red","b"=>"green");
+array_push($a,"blue","yellow");
+print_r($a);
+?>
+
+</body>
+</html>
+
+
+
+
+
+
+Array ( [a] => red [b] => green [0] => blue [1] => yellow )
